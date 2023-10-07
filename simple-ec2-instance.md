@@ -1,4 +1,6 @@
-## Create a simple EC2 server
+# Create a simple EC2 server
+
+## Instance creation
 
 - Select ec2 service
 - Choose Amazon Linux AMI
@@ -9,3 +11,9 @@
 - Configure Security Group to enable http request on port 80
 - Add key pair to be able to remotly login to the machine (automatic download)
 - Launch Instance
+
+## Instance connection via ssh
+- Click on View Instance or go back to EC2 dashboard and select the Instance. 
+- Click Connect via ssh
+- Copy the connection string.
+
