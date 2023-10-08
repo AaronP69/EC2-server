@@ -39,3 +39,12 @@ sudo systemctl status httpd
 echo "Hello world !" > /var/www/html/index.html
 sudo chmod 755 /var/www/html/index.html
 ```
+
+## Image creation:
+When you create a series of action in EC2 instance you can create an image of it that you can use later to duplicate the server and avoid all the previous 
+steps todo so: 
+
+- Go back to the instances dashboard
+- Click on the instance that you want to create an image on
+- Click on action, click image and templates and select create image
+- Choose image name and description and click on create image 
