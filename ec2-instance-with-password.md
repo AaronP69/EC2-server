@@ -31,3 +31,9 @@ PasswordAuthentication yes
 ```console
 sudo service sshd restart
 ```
+- You can now connect with user and password
+
+# Add password on instance start
+- Go to advanced parameters
+- Upload the setup script that is containing password setup
+- You can now connect with created user and password
