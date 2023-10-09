@@ -8,7 +8,7 @@
 - Configure Instance Details (Not required)
 - Add storage if needed
 - Add tag instance (at least instance name)
-- Configure Security Group to enable http request on port 80
+- Configure Security Group to enable http, https request and ssh connection
 - Add key pair to be able to remotly login to the machine (automatic download)
 - Launch Instance
 
