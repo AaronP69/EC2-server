@@ -16,4 +16,4 @@
 - Click on View Instance or go back to EC2 dashboard and select the Instance. 
 - Click Connect via ssh
 - Copy the connection string.
-
+- And paste to terminal to be connected
