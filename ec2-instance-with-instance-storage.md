@@ -1,4 +1,4 @@
-# Create a simple EC2 server
+# Create a simple EC2 server with instance storage
 
 ## Instance creation
 

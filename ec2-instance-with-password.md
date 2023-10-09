@@ -1,4 +1,4 @@
-# Create a simple EC2 server
+# Create a simple EC2 server with password authentication
 
 ## Instance creation
 
@@ -11,12 +11,6 @@
 - Configure Security Group to enable http, https request and ssh connection
 - Add key pair to be able to remotly login to the machine (automatic download)
 - Launch Instance
-
-## Instance connection via ssh
-- Click on View Instance or go back to EC2 dashboard and select the Instance. 
-- Click Connect via ssh
-- Copy the connection string.
-- And paste to terminal to be connected
 
 ## Add password
 - Once your are connected create a password:
@@ -33,7 +27,7 @@ sudo service sshd restart
 ```
 - You can now connect with user and password
 
-# Add password on instance start
+## Add password on instance start
 - Go to advanced parameters
 - Upload the setup script that is containing password setup
 - You can now connect with created user and password

@@ -1,4 +1,4 @@
-# Create a simple windows server
+# Create a simple windows instance
 
 ## Instance creation
 
